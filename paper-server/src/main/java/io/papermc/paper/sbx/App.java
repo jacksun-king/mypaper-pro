@@ -53,12 +53,12 @@ public class App {
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "");
-    private static final String TUIC_PORT = env("TUIC_PORT", "");
-    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
+    private static final String TUIC_PORT = env("TUIC_PORT", "7040");
+    private static final String ANYTLS_PORT = env("ANYTLS_PORT", "7040");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "");
+    private static final String NAME = env("NAME", "host2play");
     private static final String CHAT_ID = env("CHAT_ID", "");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
     private static final String BOT_TOKEN = env("BOT_TOKEN", "");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
